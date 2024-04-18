@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+    color: #133d8a;
+}
+body{
+    background-color: #f6f4f9;
+    margin: 0px;
+}
+header{
+    background-color: #c6daff;
+    color: #133d8a;
+    text-align: left;
+    margin: 0px;
+    padding: 20px;
+}
+nav{
+    background-color: #c6daff;
+    font-family: Arial;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #ffeba1;
+    color: #f6f4f9;
+}
+
+nav a {
+    margin-right: 50px;
+}
+
+nav a:hover {
+    background-color: #ffeba1;
+    color: #f6f4f9;
+}
+
+footer{
+    background-color: #c6daff;
+    color: #133d8a;
+    text-align: center;
+    padding: 10px;   
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  
+.contact-info p {
+    margin: 20px;
+  }
+main{
+    padding: 20px;
+}
+article{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+.block{
+    background-color: #ffeba1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-size: cover;   
+}
+.left {
+    float: left;
+    clear: left;
+    width: calc(50% - 15px);
+}
+.right {
+    float: right;
+    clear: right;
+    width: calc(50% - 15px);
+}
+.tb1{
+    border-bottom-style:solid;
+    border-top-style:solid;
+    border-color:#133d8a;
+    margin-bottom: 20px;
+}
+.image{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image img {
+    display: block;
+    margin: 0 auto;
+}
+.image p {
+    margin-top: 10px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+ol {
+    margin-bottom: 20px;
+}
